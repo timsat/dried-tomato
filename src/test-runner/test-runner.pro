@@ -39,4 +39,5 @@ else:unix: LIBS += \
   -L$$OUT_PWD/../core/ -ltomighty-core \
   -L$$OUT_PWD/../ui/ -ltomighty-ui \
   -L$$OUT_PWD/../core-tests/ -ltomighty-core-tests \
+  -L$$OUT_PWD/../core-mock/ -ltomighty-core-mock \
   -L$$OUT_PWD/../ui-tests/ -ltomighty-ui-tests

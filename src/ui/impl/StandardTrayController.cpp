@@ -23,6 +23,7 @@
 #include "StandardTrayController.h"
 #include "Tray.h"
 #include "TrayIconFiles.h"
+#include "QTextStream"
 
 using tmty::Interval;
 using tmty::IntervalType;
@@ -123,9 +124,6 @@ void StandardTrayController::updateRemainingTime(int secondsLeft)
 {
   int minutes = secondsLeft / 60;
   int seconds = secondsLeft - minutes * 60;
-  QString text;
-
-  text.sprintf("%02d:%02d", minutes, seconds);
-
+  QString text = QString::asprintf("%02d:%02d", minutes, seconds);
   _tray.setRemainingTimeText(text);
 }
