@@ -1,4 +1,4 @@
-# dried-tomato (former Tomighty's develop branch) #
+# Tomatl (former Tomighty's develop branch) #
 
 A desktop timer app for the [Pomodoro Technique®](http://pomodorotechnique.com)
 written in C++ on top of [Qt 5](http://qt-project.org).
@@ -48,5 +48,5 @@ The clock icon was created by [Thomas Le Bas](https://www.thenounproject.com/tlb
 ## Legal Information ##
 
 [Pomodoro Technique®](http://pomodorotechnique.com) and [Pomodoro™](http://pomodorotechnique.com)
-are registered and filed trademarks owned by Francesco Cirillo. dried-tomato is not affiliated by,
+are registered and filed trademarks owned by Francesco Cirillo. Tomatl is not affiliated by,
 associated with nor endorsed by Francesco Cirillo.
