@@ -38,6 +38,8 @@ Read it here: https://www.apache.org/licenses/LICENSE-2.0.html
 
 ## Credits ##
 
+Originally created by [Célio Cidral Jr](https://github.com/ccidral) and other contributors
+
 The tomato icon was created by [José Campos](www.thenounproject.com/jcampos).
 
 The clock icon was created by [Thomas Le Bas](www.thenounproject.com/tlb).
