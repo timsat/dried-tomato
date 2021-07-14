@@ -8,22 +8,9 @@ It's designed to be:
 * Simple
 * Non-distracting
 * Unintrusive
-* Reasonably configurable
-* Extensible (with plugins)
-* Cross-platform
 
 When the application starts, a little tomato icon is shown on the system tray. Its color indicates
 the current state of the timer. By clicking on the tray icon the main application menu pops up.
-
-For more information, please visit [www.tomighty.org](http://www.tomighty.org).
-
-
-## Development ##
-
-The source code in this branch is a full rewrite of the previous version which was written in Java.
-
-The project follows the development model
-[as presented by Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/).
 
 
 ## Building ##
