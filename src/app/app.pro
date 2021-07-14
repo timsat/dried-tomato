@@ -18,6 +18,8 @@ INCLUDEPATH += \
 SOURCES += \
     Main.cpp
 
+unix:QMAKE_RPATHDIR += ./
+
 win32:CONFIG(release, debug|release): LIBS += \
   -L$$OUT_PWD/../core/release/ -ltomighty-core \
   -L$$OUT_PWD/../ui/release/ -ltomighty-ui
