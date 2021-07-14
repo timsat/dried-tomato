@@ -59,5 +59,5 @@ The clock icon was created by [Thomas Le Bas](www.thenounproject.com/tlb).
 ## Legal Information ##
 
 [Pomodoro Technique®](http://pomodorotechnique.com) and [Pomodoro™](http://pomodorotechnique.com)
-are registered and filed trademarks owned by Francesco Cirillo. Tomighty is not affiliated by,
+are registered and filed trademarks owned by Francesco Cirillo. dried-tomato is not affiliated by,
 associated with nor endorsed by Francesco Cirillo.
