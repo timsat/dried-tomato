@@ -1,7 +1,7 @@
 include(../common.pri)
 
 TEMPLATE = lib
-TARGET = tomighty-core
+TARGET = tomatl-core
 
 QT += core
 
@@ -29,3 +29,6 @@ HEADERS += \
     impl/StandardPomodoroEngine.h \
     impl/StandardTimer.h \
     impl/StandardPreferences.h
+
+target.path = /usr/local/lib/
+INSTALLS += target

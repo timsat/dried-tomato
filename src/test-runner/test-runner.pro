@@ -1,7 +1,7 @@
 include(../common.pri)
 
 TEMPLATE = app
-TARGET = tomighty-test-runner
+TARGET = tomatl-test-runner
 CONFIG   += console
 CONFIG   -= app_bundle
 
@@ -24,20 +24,20 @@ SOURCES += \
     Main.cpp
 
 win32:CONFIG(release, debug|release): LIBS += \
-  -L$$OUT_PWD/../core/release/ -ltomighty-core \
-  -L$$OUT_PWD/../ui/release/ -ltomighty-ui \
-  -L$$OUT_PWD/../core-tests/release/ -ltomighty-core-tests \
-  -L$$OUT_PWD/../ui-tests/release/ -ltomighty-ui-tests
+  -L$$OUT_PWD/../core/release/ -ltomatl-core \
+  -L$$OUT_PWD/../ui/release/ -ltomatl-ui \
+  -L$$OUT_PWD/../core-tests/release/ -ltomatl-core-tests \
+  -L$$OUT_PWD/../ui-tests/release/ -ltomatl-ui-tests
 
 else:win32:CONFIG(debug, debug|release): LIBS += \
-  -L$$OUT_PWD/../core/debug/ -ltomighty-core \
-  -L$$OUT_PWD/../ui/debug/ -ltomighty-ui \
-  -L$$OUT_PWD/../core-tests/debug/ -ltomighty-core-tests \
-  -L$$OUT_PWD/../ui-tests/debug/ -ltomighty-ui-tests
+  -L$$OUT_PWD/../core/debug/ -ltomatl-core \
+  -L$$OUT_PWD/../ui/debug/ -ltomatl-ui \
+  -L$$OUT_PWD/../core-tests/debug/ -ltomatl-core-tests \
+  -L$$OUT_PWD/../ui-tests/debug/ -ltomatl-ui-tests
 
 else:unix: LIBS += \
-  -L$$OUT_PWD/../core/ -ltomighty-core \
-  -L$$OUT_PWD/../ui/ -ltomighty-ui \
-  -L$$OUT_PWD/../core-tests/ -ltomighty-core-tests \
-  -L$$OUT_PWD/../core-mock/ -ltomighty-core-mock \
-  -L$$OUT_PWD/../ui-tests/ -ltomighty-ui-tests
+  -L$$OUT_PWD/../core/ -ltomatl-core \
+  -L$$OUT_PWD/../ui/ -ltomatl-ui \
+  -L$$OUT_PWD/../core-tests/ -ltomatl-core-tests \
+  -L$$OUT_PWD/../core-mock/ -ltomatl-core-mock \
+  -L$$OUT_PWD/../ui-tests/ -ltomatl-ui-tests
