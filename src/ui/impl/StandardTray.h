@@ -21,7 +21,7 @@
 
 class QAction;
 class QMenu;
-class QSystemTrayIcon;
+#include "QSystemTrayIcon"
 
 namespace tmty
 {
@@ -42,6 +42,10 @@ namespace tmty
         void enableLongBreakAction(bool enable);
         void setRemainingTimeText(const QString &text);
         void setIcon(const QString &iconFile);
+
+      public slots:
+        void activated(QSystemTrayIcon::ActivationReason reason);
+
 
       private:
         QSystemTrayIcon *_systemTray;

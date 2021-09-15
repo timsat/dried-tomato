@@ -67,6 +67,7 @@ void StandardTray::enableLongBreakAction(bool enable)
 void StandardTray::setRemainingTimeText(const QString &text)
 {
   _remainingTimeAction->setText(text);
+  _systemTray->setToolTip(text);
 }
 
 void StandardTray::setIcon(const QString &iconFile)
@@ -77,6 +78,7 @@ void StandardTray::setIcon(const QString &iconFile)
 void StandardTray::buildSystemTray()
 {
   _systemTray->setContextMenu(_trayMenu);
+  connect(_systemTray, SIGNAL(activated(QSystemTrayIcon::ActivationReason reason)), this, SLOT(activated(QSystemTrayIcon::Activation Reason reason)));
 }
 
 void StandardTray::buildMenu()
@@ -91,7 +93,6 @@ void StandardTray::buildMenu()
   _shortBreakAction = createTimerAction(tr("Short break"), QString(":/images/icons/menu/short-break.png"));
   _longBreakAction = createTimerAction(tr("Long break"), QString(":/images/icons/menu/long-break.png"));
   _trayMenu->addSeparator();
-  _trayMenu->addAction(tr("Preferences..."));
   _trayMenu->addAction(tr("About Tomighty"));
   _trayMenu->addSeparator();
   QAction *quitAction = _trayMenu->addAction(tr("Quit"));
@@ -119,4 +120,12 @@ void StandardTray::enableTimerAction(QAction *action, bool enable)
 {
   action->setEnabled(enable);
   action->setChecked(!enable);
+}
+
+void StandardTray::activated(QSystemTrayIcon::ActivationReason reason)
+{
+  if (reason == QSystemTrayIcon::ActivationReason::DoubleClick)
+  {
+
+  }
 }
