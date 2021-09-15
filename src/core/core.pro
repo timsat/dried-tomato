@@ -30,5 +30,5 @@ HEADERS += \
     impl/StandardTimer.h \
     impl/StandardPreferences.h
 
-target.path = /usr/local/lib/
+target.path = /lib
 INSTALLS += target
