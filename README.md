@@ -1,4 +1,4 @@
-# Tomatl (former Tomighty's develop branch) #
+# Tomatl (former [Tomighty's](https://github.com/tomighty/tomighty) develop branch) #
 
 A desktop timer app for the [Pomodoro Technique®](http://pomodorotechnique.com)
 written in C++ on top of [Qt 5](http://qt-project.org).
