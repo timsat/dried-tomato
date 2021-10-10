@@ -16,7 +16,7 @@
 
 #include "PomodoroEngine.h"
 
-using tmty::PomodoroEngine;
+using tmtl::PomodoroEngine;
 
 PomodoroEngine::PomodoroEngine(QObject *parent) :
   QObject(parent)

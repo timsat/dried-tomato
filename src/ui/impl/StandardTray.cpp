@@ -21,8 +21,8 @@
 
 #include "StandardTray.h"
 
-using tmty::ui::StandardTray;
-using tmty::ui::Tray;
+using tmtl::ui::StandardTray;
+using tmtl::ui::Tray;
 
 StandardTray::StandardTray(QObject *parent) :
   Tray(parent)

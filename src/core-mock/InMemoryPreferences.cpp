@@ -18,7 +18,7 @@
 
 #include "InMemoryPreferences.h"
 
-using tmty::InMemoryPreferences;
+using tmtl::InMemoryPreferences;
 
 InMemoryPreferences::InMemoryPreferences(QObject *parent) :
   Preferences(parent),

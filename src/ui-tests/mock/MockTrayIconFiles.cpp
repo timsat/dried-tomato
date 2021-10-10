@@ -18,9 +18,9 @@
 
 #include "MockTrayIconFiles.h"
 
-using tmty::IntervalType;
-using tmty::ui::MockTrayIconFiles;
-using tmty::ui::TrayIconFiles;
+using tmtl::IntervalType;
+using tmtl::ui::MockTrayIconFiles;
+using tmtl::ui::TrayIconFiles;
 
 MockTrayIconFiles::MockTrayIconFiles() :
   TrayIconFiles()

@@ -1,6 +1,6 @@
 #include "SoundClip.h"
 
-using tmty::ui::SoundClip;
+using tmtl::ui::SoundClip;
 
 SoundClip::SoundClip()
 {

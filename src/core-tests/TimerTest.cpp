@@ -26,12 +26,12 @@
 #include "TimerTest.h"
 #include "ManualClockwork.h"
 
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::ManualClockwork;
-using tmty::StandardTimer;
-using tmty::Timer;
-using tmty::TimerTest;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::ManualClockwork;
+using tmtl::StandardTimer;
+using tmtl::Timer;
+using tmtl::TimerTest;
 
 Q_DECLARE_METATYPE(Interval)
 

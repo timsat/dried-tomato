@@ -19,7 +19,7 @@
 
 #include "Timer.h"
 
-using tmty::Timer;
+using tmtl::Timer;
 
 Timer::Timer(QObject *parent) : TimerSignalEmitter(parent)
 {}

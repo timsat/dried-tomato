@@ -19,7 +19,7 @@
 
 #include "Timer.h"
 
-namespace tmty
+namespace tmtl
 {
   class FakeTimer : public Timer
   {

@@ -17,9 +17,9 @@
 #include "IntervalType.h"
 #include "StandardPreferences.h"
 
-using tmty::IntervalType;
-using tmty::Preferences;
-using tmty::StandardPreferences;
+using tmtl::IntervalType;
+using tmtl::Preferences;
+using tmtl::StandardPreferences;
 
 //TODO implement this class
 

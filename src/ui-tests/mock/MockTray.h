@@ -19,7 +19,7 @@
 
 #include "Tray.h"
 
-namespace tmty
+namespace tmtl
 {
   namespace ui
   {

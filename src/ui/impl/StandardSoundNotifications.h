@@ -3,7 +3,7 @@
 
 #include "SoundNotifications.h"
 
-namespace tmty
+namespace tmtl
 {
   namespace ui
   {

@@ -19,7 +19,7 @@
 
 class QString;
 
-namespace tmty
+namespace tmtl
 {
   enum class IntervalType;
 

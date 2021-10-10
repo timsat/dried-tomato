@@ -16,7 +16,7 @@
 
 #include "MockTimerSignalEmitter.h"
 
-using tmty::MockTimerSignalEmitter;
+using tmtl::MockTimerSignalEmitter;
 
 MockTimerSignalEmitter::MockTimerSignalEmitter(QObject *parent) :
   TimerSignalEmitter(parent)

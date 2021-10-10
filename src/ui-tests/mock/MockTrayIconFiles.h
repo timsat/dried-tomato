@@ -21,7 +21,7 @@
 
 #include "TrayIconFiles.h"
 
-namespace tmty
+namespace tmtl
 {
   namespace ui
   {

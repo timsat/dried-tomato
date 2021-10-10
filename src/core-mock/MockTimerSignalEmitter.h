@@ -19,7 +19,7 @@
 
 #include "TimerSignalEmitter.h"
 
-namespace tmty
+namespace tmtl
 {
   class MockTimerSignalEmitter : public TimerSignalEmitter
   {

@@ -19,7 +19,7 @@
 
 #include "Preferences.h"
 
-namespace tmty
+namespace tmtl
 {
   class InMemoryPreferences : public Preferences
   {

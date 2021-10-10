@@ -25,14 +25,14 @@
 #include "StandardTrayController.h"
 #include "TrayControllerTest.h"
 
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::MockPomodoroEngine;
-using tmty::MockTimerSignalEmitter;
-using tmty::ui::MockTray;
-using tmty::ui::MockTrayIconFiles;
-using tmty::ui::TrayControllerTest;
-using tmty::ui::StandardTrayController;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::MockPomodoroEngine;
+using tmtl::MockTimerSignalEmitter;
+using tmtl::ui::MockTray;
+using tmtl::ui::MockTrayIconFiles;
+using tmtl::ui::TrayControllerTest;
+using tmtl::ui::StandardTrayController;
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

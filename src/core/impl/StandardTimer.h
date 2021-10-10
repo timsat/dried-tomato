@@ -19,7 +19,7 @@
 
 #include "../Timer.h"
 
-namespace tmty
+namespace tmtl
 {
   class Clockwork;
   class Interval;

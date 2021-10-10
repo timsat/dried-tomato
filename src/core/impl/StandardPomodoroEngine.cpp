@@ -19,10 +19,10 @@
 #include "../Preferences.h"
 #include "../Timer.h"
 
-using tmty::IntervalType;
-using tmty::Preferences;
-using tmty::StandardPomodoroEngine;
-using tmty::Timer;
+using tmtl::IntervalType;
+using tmtl::Preferences;
+using tmtl::StandardPomodoroEngine;
+using tmtl::Timer;
 
 StandardPomodoroEngine::StandardPomodoroEngine(Timer &timer, const Preferences &preferences, QObject *parent) :
   PomodoroEngine(parent),

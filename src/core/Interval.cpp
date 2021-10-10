@@ -17,8 +17,8 @@
 #include "Interval.h"
 #include "IntervalType.h"
 
-using tmty::Interval;
-using tmty::IntervalType;
+using tmtl::Interval;
+using tmtl::IntervalType;
 
 Interval::Interval() :
   _seconds(0),

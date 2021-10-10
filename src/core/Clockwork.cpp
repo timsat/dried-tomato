@@ -15,8 +15,22 @@
  */
 
 #include "Clockwork.h"
+#include "impl/Clockwork_p.h"
 
-using tmty::Clockwork;
+using tmtl::Clockwork;
 
-Clockwork::Clockwork(QObject *parent) : QObject(parent)
-{}
+Clockwork::Clockwork(QObject * parent):
+  QObject(parent),
+  d_ptr(new ClockworkPrivate(this))
+{
+}
+
+void Clockwork::resume() {
+  Q_D(Clockwork);
+  d->resume();
+}
+
+void Clockwork::pause() {
+  Q_D(Clockwork);
+  d->pause();
+}

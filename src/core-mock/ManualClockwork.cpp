@@ -18,7 +18,7 @@
 
 #include "ManualClockwork.h"
 
-using tmty::ManualClockwork;
+using tmtl::ManualClockwork;
 
 ManualClockwork::ManualClockwork(QObject *parent) : Clockwork(parent)
 {

@@ -23,10 +23,10 @@
 
 int main(int argc, char** argv)
 {
-  tmty::PomodoroEngineTest pomodoroEngineTest;
-  tmty::TimerTest timerTest;
-  tmty::ui::TrayControllerTest trayControllerTest;
-  tmty::ui::SoundNotificationControllerTest soundNotificationControllerTest;
+  tmtl::PomodoroEngineTest pomodoroEngineTest;
+  tmtl::TimerTest timerTest;
+  tmtl::ui::TrayControllerTest trayControllerTest;
+  tmtl::ui::SoundNotificationControllerTest soundNotificationControllerTest;
 
   return QTest::qExec(&timerTest, argc, argv)
        | QTest::qExec(&pomodoroEngineTest, argc, argv)

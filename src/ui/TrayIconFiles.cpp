@@ -16,7 +16,7 @@
 
 #include "TrayIconFiles.h"
 
-using tmty::ui::TrayIconFiles;
+using tmtl::ui::TrayIconFiles;
 
 TrayIconFiles::TrayIconFiles()
 {}

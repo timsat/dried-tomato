@@ -1,6 +1,6 @@
 #include "MockSoundClip.h"
 
-using tmty::ui::MockSoundClip;
+using tmtl::ui::MockSoundClip;
 
 MockSoundClip::MockSoundClip() :
   SoundClip(),

@@ -16,9 +16,9 @@
 
 #include "MockPomodoroEngine.h"
 
-using tmty::IntervalType;
-using tmty::MockPomodoroEngine;
-using tmty::PomodoroEngine;
+using tmtl::IntervalType;
+using tmtl::MockPomodoroEngine;
+using tmtl::PomodoroEngine;
 
 MockPomodoroEngine::MockPomodoroEngine(QObject *parent) :
   PomodoroEngine(parent)

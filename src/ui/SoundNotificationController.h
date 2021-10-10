@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-namespace tmty
+namespace tmtl
 {
   class Interval;
   class Preferences;

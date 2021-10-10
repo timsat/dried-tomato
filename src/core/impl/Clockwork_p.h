@@ -14,25 +14,36 @@
  *     limitations under the License.
  */
 
-#include "StandardClockwork.h"
+#ifndef CLOCKWORK_P_H
+#define CLOCKWORK_P_H
 
-using tmty::StandardClockwork;
+#include <QTimer>
+#include "Clockwork.h"
 
-StandardClockwork::StandardClockwork(QObject *parent) : Clockwork(parent)
+namespace tmtl
 {
-  _timer = new QTimer(this);
-  _timer->setInterval(1000);
+  class ClockworkPrivate
+  {
+    Q_DECLARE_PUBLIC(Clockwork);
+    public:
+      explicit ClockworkPrivate(Clockwork *parent):q_ptr(parent) {
+        _timer = new QTimer(parent);
+        _timer->setInterval(1000);
+        parent->connect(_timer, SIGNAL(timeout()), parent,  SIGNAL(secondElapsed()));
+      }
 
-  connect(_timer, SIGNAL(timeout()),
-          this,  SIGNAL(secondElapsed()));
+      void resume() {
+        _timer->start();
+      }
+
+      void pause() {
+        _timer->stop();
+      }
+
+    private:
+      Clockwork * q_ptr;
+      QTimer *_timer;
+  };
 }
 
-void StandardClockwork::resume()
-{
-  _timer->start();
-}
-
-void StandardClockwork::pause()
-{
-  _timer->stop();
-}
+#endif // CLOCKWORK_P_H

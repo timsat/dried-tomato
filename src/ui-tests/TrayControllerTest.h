@@ -19,7 +19,7 @@
 
 #include <QObject>
 
-namespace tmty
+namespace tmtl
 {
   class MockPomodoroEngine;
   class MockTimerSignalEmitter;

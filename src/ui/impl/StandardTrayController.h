@@ -19,7 +19,7 @@
 
 #include "TrayController.h"
 
-namespace tmty
+namespace tmtl
 {
   class Interval;
   class PomodoroEngine;

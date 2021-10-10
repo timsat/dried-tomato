@@ -16,7 +16,7 @@
 
 #include "Preferences.h"
 
-using tmty::Preferences;
+using tmtl::Preferences;
 
 Preferences::Preferences(QObject *parent) :
   QObject(parent)

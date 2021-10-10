@@ -19,8 +19,10 @@
 
 #include <QObject>
 
-namespace tmty
+namespace tmtl
 {
+  class ClockworkPrivate;
+
   class Clockwork : public QObject
   {
       Q_OBJECT
@@ -28,11 +30,19 @@ namespace tmty
     public:
       explicit Clockwork(QObject *parent = 0);
 
-      virtual void resume() = 0;
-      virtual void pause() = 0;
+      void resume();
+      void pause();
 
     signals:
       void secondElapsed();
+
+    protected:
+      Clockwork(ClockworkPrivate &&d, QObject *parent);
+      ClockworkPrivate * const d_ptr;
+    private:
+      Q_DECLARE_PRIVATE(Clockwork);
+
+
   };
 }
 

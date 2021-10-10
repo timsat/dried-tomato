@@ -20,9 +20,9 @@
 #include "IntervalType.h"
 #include "FakeTimer.h"
 
-using tmty::FakeTimer;
-using tmty::Interval;
-using tmty::IntervalType;
+using tmtl::FakeTimer;
+using tmtl::Interval;
+using tmtl::IntervalType;
 
 FakeTimer::FakeTimer(QObject *parent) :
   Timer(parent)

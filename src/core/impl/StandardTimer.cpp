@@ -19,12 +19,12 @@
 #include "../Interval.h"
 #include "../IntervalType.h"
 
-using tmty::Clockwork;
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::StandardTimer;
+using tmtl::Clockwork;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::StandardTimer;
 
-StandardTimer::StandardTimer(tmty::Clockwork &clockwork, QObject *parent) :
+StandardTimer::StandardTimer(tmtl::Clockwork &clockwork, QObject *parent) :
   Timer(parent),
   _clockwork(clockwork)
 {

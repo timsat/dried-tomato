@@ -16,7 +16,7 @@
 
 #include "TimerSignalEmitter.h"
 
-using tmty::TimerSignalEmitter;
+using tmtl::TimerSignalEmitter;
 
 TimerSignalEmitter::TimerSignalEmitter(QObject *parent) :
   QObject(parent)

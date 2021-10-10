@@ -17,7 +17,7 @@
 #include <QApplication>
 #include <QObject>
 
-#include "impl/StandardClockwork.h"
+#include "impl/Clockwork_p.h"
 #include "impl/StandardPomodoroEngine.h"
 #include "impl/StandardPreferences.h"
 #include "impl/StandardTimer.h"
@@ -27,30 +27,29 @@
 #include "impl/StandardSoundNotifications.h"
 #include "SoundNotificationController.h"
 
-using tmty::Clockwork;
-using tmty::PomodoroEngine;
-using tmty::Preferences;
-using tmty::StandardClockwork;
-using tmty::StandardPomodoroEngine;
-using tmty::StandardPreferences;
-using tmty::StandardTimer;
-using tmty::Timer;
+using tmtl::Clockwork;
+using tmtl::PomodoroEngine;
+using tmtl::Preferences;
+using tmtl::StandardPomodoroEngine;
+using tmtl::StandardPreferences;
+using tmtl::StandardTimer;
+using tmtl::Timer;
 
-using tmty::ui::SoundNotifications;
-using tmty::ui::SoundNotificationController;
-using tmty::ui::StandardSoundNotifications;
-using tmty::ui::StandardTray;
-using tmty::ui::StandardTrayController;
-using tmty::ui::StandardTrayIconFiles;
-using tmty::ui::Tray;
-using tmty::ui::TrayController;
-using tmty::ui::TrayIconFiles;
+using tmtl::ui::SoundNotifications;
+using tmtl::ui::SoundNotificationController;
+using tmtl::ui::StandardSoundNotifications;
+using tmtl::ui::StandardTray;
+using tmtl::ui::StandardTrayController;
+using tmtl::ui::StandardTrayIconFiles;
+using tmtl::ui::Tray;
+using tmtl::ui::TrayController;
+using tmtl::ui::TrayIconFiles;
 
 int main(int argc, char *argv[])
 {
   QApplication app(argc, argv);
 
-  Clockwork *clockwork = new StandardClockwork();
+  Clockwork *clockwork = new Clockwork();
   Timer *timer = new StandardTimer(*clockwork);
   Preferences *preferences = new StandardPreferences();
   PomodoroEngine *pomodoroEngine = new StandardPomodoroEngine(*timer, *preferences);

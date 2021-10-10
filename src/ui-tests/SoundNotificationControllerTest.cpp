@@ -25,14 +25,14 @@
 #include "SoundNotificationController.h"
 #include "SoundNotificationControllerTest.h"
 
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::InMemoryPreferences;
-using tmty::MockTimerSignalEmitter;
-using tmty::ui::MockSoundClip;
-using tmty::ui::MockSoundNotifications;
-using tmty::ui::SoundNotificationController;
-using tmty::ui::SoundNotificationControllerTest;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::InMemoryPreferences;
+using tmtl::MockTimerSignalEmitter;
+using tmtl::ui::MockSoundClip;
+using tmtl::ui::MockSoundNotifications;
+using tmtl::ui::SoundNotificationController;
+using tmtl::ui::SoundNotificationControllerTest;
 
 void SoundNotificationControllerTest::init()
 {

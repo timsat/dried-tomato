@@ -16,7 +16,7 @@
 
 #include "Tray.h"
 
-using tmty::ui::Tray;
+using tmtl::ui::Tray;
 
 Tray::Tray(QObject *parent) : QObject(parent)
 {}

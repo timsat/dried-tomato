@@ -23,12 +23,12 @@
 #include "FakeTimer.h"
 #include "InMemoryPreferences.h"
 
-using tmty::FakeTimer;
-using tmty::InMemoryPreferences;
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::PomodoroEngineTest;
-using tmty::StandardPomodoroEngine;
+using tmtl::FakeTimer;
+using tmtl::InMemoryPreferences;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::PomodoroEngineTest;
+using tmtl::StandardPomodoroEngine;
 
 void PomodoroEngineTest::init()
 {

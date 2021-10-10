@@ -19,9 +19,9 @@
 #include "IntervalType.h"
 #include "StandardTrayIconFiles.h"
 
-using tmty::IntervalType;
-using tmty::ui::StandardTrayIconFiles;
-using tmty::ui::TrayIconFiles;
+using tmtl::IntervalType;
+using tmtl::ui::StandardTrayIconFiles;
+using tmtl::ui::TrayIconFiles;
 
 StandardTrayIconFiles::StandardTrayIconFiles() :
   TrayIconFiles()

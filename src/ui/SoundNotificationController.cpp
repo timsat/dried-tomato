@@ -6,13 +6,13 @@
 #include "SoundNotificationController.h"
 #include "TimerSignalEmitter.h"
 
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::Preferences;
-using tmty::TimerSignalEmitter;
-using tmty::ui::SoundClip;
-using tmty::ui::SoundNotifications;
-using tmty::ui::SoundNotificationController;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::Preferences;
+using tmtl::TimerSignalEmitter;
+using tmtl::ui::SoundClip;
+using tmtl::ui::SoundNotifications;
+using tmtl::ui::SoundNotificationController;
 
 SoundNotificationController::SoundNotificationController(SoundNotifications &soundNotifications, Preferences &preferences, QObject *parent) :
   QObject(parent),

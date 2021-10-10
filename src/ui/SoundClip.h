@@ -1,7 +1,7 @@
 #ifndef SOUNDCLIP_H
 #define SOUNDCLIP_H
 
-namespace tmty
+namespace tmtl
 {
   namespace ui
   {

@@ -23,7 +23,7 @@ class QAction;
 class QMenu;
 #include "QSystemTrayIcon"
 
-namespace tmty
+namespace tmtl
 {
   namespace ui
   {

@@ -16,7 +16,7 @@
 
 #include "MockTray.h"
 
-using tmty::ui::MockTray;
+using tmtl::ui::MockTray;
 
 MockTray::MockTray(QObject *parent) :
   Tray(parent)

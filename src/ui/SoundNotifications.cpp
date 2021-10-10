@@ -1,6 +1,6 @@
 #include "SoundNotifications.h"
 
-using tmty::ui::SoundNotifications;
+using tmtl::ui::SoundNotifications;
 
 SoundNotifications::SoundNotifications()
 {

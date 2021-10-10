@@ -19,7 +19,7 @@
 
 #include "PomodoroEngine.h"
 
-namespace tmty
+namespace tmtl
 {
   class MockPomodoroEngine : public PomodoroEngine
   {

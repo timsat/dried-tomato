@@ -17,7 +17,7 @@
 #ifndef INTERVAL_H
 #define INTERVAL_H
 
-namespace tmty
+namespace tmtl
 {
   enum class IntervalType;
 

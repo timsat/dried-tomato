@@ -19,7 +19,7 @@
 
 #include "Clockwork.h"
 
-namespace tmty
+namespace tmtl
 {
   class ManualClockwork : public Clockwork
   {

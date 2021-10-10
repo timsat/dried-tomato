@@ -19,7 +19,7 @@
 
 #include "../PomodoroEngine.h"
 
-namespace tmty
+namespace tmtl
 {
   class Preferences;
   class Timer;

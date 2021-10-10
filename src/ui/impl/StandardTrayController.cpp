@@ -25,14 +25,14 @@
 #include "TrayIconFiles.h"
 #include "QTextStream"
 
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::PomodoroEngine;
-using tmty::TimerSignalEmitter;
-using tmty::ui::StandardTrayController;
-using tmty::ui::Tray;
-using tmty::ui::TrayController;
-using tmty::ui::TrayIconFiles;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::PomodoroEngine;
+using tmtl::TimerSignalEmitter;
+using tmtl::ui::StandardTrayController;
+using tmtl::ui::Tray;
+using tmtl::ui::TrayController;
+using tmtl::ui::TrayIconFiles;
 
 StandardTrayController::StandardTrayController(Tray &tray, const TrayIconFiles &trayIconFiles, PomodoroEngine &pomodoroEngine, TimerSignalEmitter &timerSignalEmitter, QObject *parent) :
   TrayController(parent),

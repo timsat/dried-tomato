@@ -12,7 +12,6 @@ SOURCES += \
     Interval.cpp \
     Timer.cpp \
     TimerSignalEmitter.cpp \
-    impl/StandardClockwork.cpp \
     impl/StandardPomodoroEngine.cpp \
     impl/StandardTimer.cpp \
     impl/StandardPreferences.cpp
@@ -25,7 +24,7 @@ HEADERS += \
     Preferences.h \
     Timer.h \
     TimerSignalEmitter.h \
-    impl/StandardClockwork.h \
+    impl/Clockwork_p.h \
     impl/StandardPomodoroEngine.h \
     impl/StandardTimer.h \
     impl/StandardPreferences.h
