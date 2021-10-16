@@ -28,7 +28,7 @@ StandardPreferences::StandardPreferences(QObject *parent) :
 {
 }
 
-void StandardPreferences::setIntervalLengthInMinutes(IntervalType intervalType, int minutes)
+void StandardPreferences::setIntervalLengthInMinutes(IntervalType /*intervalType*/, int /*minutes*/)
 {
 }
 
@@ -48,7 +48,7 @@ bool StandardPreferences::shouldPlaySoundNotificationWhenTimerIsSet()
   return true;
 }
 
-void StandardPreferences::setShouldPlaySoundNotificationWhenTimerIsSet(bool shouldPlay)
+void StandardPreferences::setShouldPlaySoundNotificationWhenTimerIsSet(bool /*shouldPlay*/)
 {
 }
 
@@ -57,7 +57,7 @@ bool StandardPreferences::shouldPlaySoundNotificationDuringPomodoros()
   return true;
 }
 
-void StandardPreferences::setShouldPlaySoundNotificationDuringPomodoros(bool shouldPlay)
+void StandardPreferences::setShouldPlaySoundNotificationDuringPomodoros(bool /*shouldPlay*/)
 {
 }
 
@@ -66,7 +66,7 @@ bool StandardPreferences::shouldPlaySoundNotificationDuringBreaks()
   return true;
 }
 
-void StandardPreferences::setShouldPlaySoundNotificationDuringBreaks(bool shouldPlay)
+void StandardPreferences::setShouldPlaySoundNotificationDuringBreaks(bool /*shouldPlay*/)
 {
 }
 
@@ -75,6 +75,6 @@ bool StandardPreferences::shouldPlaySoundNotificationWhenTimerExpires()
   return true;
 }
 
-void StandardPreferences::setShouldPlaySoundNotificationWhenTimerExpires(bool shouldPlay)
+void StandardPreferences::setShouldPlaySoundNotificationWhenTimerExpires(bool /*shouldPlay*/)
 {
 }
