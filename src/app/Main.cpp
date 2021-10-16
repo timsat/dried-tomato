@@ -14,8 +14,9 @@
  *     limitations under the License.
  */
 
-#include <QApplication>
 #include <QObject>
+#include <QApplication>
+#include <QCommandLineParser>
 
 #include "impl/Clockwork_p.h"
 #include "impl/StandardPomodoroEngine.h"
@@ -47,7 +48,17 @@ using tmtl::ui::TrayIconFiles;
 
 int main(int argc, char *argv[])
 {
+
   QApplication app(argc, argv);
+  app.setApplicationName("Tomatl");
+  app.setApplicationVersion(VERSION);
+
+  QCommandLineParser parser;
+  parser.setApplicationDescription("Simple Pomodoro timer");
+  parser.addHelpOption();
+  parser.addVersionOption();
+
+  parser.process(app);
 
   Clockwork *clockwork = new Clockwork();
   Timer *timer = new StandardTimer(*clockwork);
