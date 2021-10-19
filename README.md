@@ -9,8 +9,8 @@ It's designed to be:
 * Non-distracting
 * Unintrusive
 
-When the application starts, a little tomato icon is shown on the system tray. Its color indicates
-the current state of the timer. By clicking on the tray icon the main application menu pops up.
+When the application starts, a little tomato icon is shown on the system tray:
+![tomatl menu](tomatl_menu.gif)
 
 
 ## Building ##
@@ -25,7 +25,7 @@ In the project's root directory, type:
 ```bash
 mkdir build
 cd build
-qmake ../src/tomighty.pro
+qmake ../src/tomatl.pro
 make
 ```
 
