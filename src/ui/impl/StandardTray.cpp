@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -21,8 +22,8 @@
 
 #include "StandardTray.h"
 
-using tmty::ui::StandardTray;
-using tmty::ui::Tray;
+using tmtl::ui::StandardTray;
+using tmtl::ui::Tray;
 
 StandardTray::StandardTray(QObject *parent) :
   Tray(parent)
@@ -92,8 +93,6 @@ void StandardTray::buildMenu()
   _pomodoroAction = createTimerAction(tr("Pomodoro"), QString(":/images/icons/menu/pomodoro.png"));
   _shortBreakAction = createTimerAction(tr("Short break"), QString(":/images/icons/menu/short-break.png"));
   _longBreakAction = createTimerAction(tr("Long break"), QString(":/images/icons/menu/long-break.png"));
-  _trayMenu->addSeparator();
-  _trayMenu->addAction(tr("About Tomighty"));
   _trayMenu->addSeparator();
   QAction *quitAction = _trayMenu->addAction(tr("Quit"));
 

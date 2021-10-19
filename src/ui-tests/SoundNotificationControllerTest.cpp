@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -25,14 +26,14 @@
 #include "SoundNotificationController.h"
 #include "SoundNotificationControllerTest.h"
 
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::InMemoryPreferences;
-using tmty::MockTimerSignalEmitter;
-using tmty::ui::MockSoundClip;
-using tmty::ui::MockSoundNotifications;
-using tmty::ui::SoundNotificationController;
-using tmty::ui::SoundNotificationControllerTest;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::InMemoryPreferences;
+using tmtl::MockTimerSignalEmitter;
+using tmtl::ui::MockSoundClip;
+using tmtl::ui::MockSoundNotifications;
+using tmtl::ui::SoundNotificationController;
+using tmtl::ui::SoundNotificationControllerTest;
 
 void SoundNotificationControllerTest::init()
 {

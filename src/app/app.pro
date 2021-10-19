@@ -30,5 +30,5 @@ else:unix: LIBS += \
   -L$$OUT_PWD/../core/ -ltomatl-core \
   -L$$OUT_PWD/../ui/ -ltomatl-ui
 
-target.path = /usr/local/bin
+target.path = /bin
 INSTALLS += target

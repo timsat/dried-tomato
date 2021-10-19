@@ -42,5 +42,5 @@ SOURCES += \
 
 RESOURCES = resources/tomatl.qrc
 
-target.path = /usr/local/lib
+target.path = /lib
 INSTALLS += target

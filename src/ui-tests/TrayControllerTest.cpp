@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -25,14 +26,14 @@
 #include "StandardTrayController.h"
 #include "TrayControllerTest.h"
 
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::MockPomodoroEngine;
-using tmty::MockTimerSignalEmitter;
-using tmty::ui::MockTray;
-using tmty::ui::MockTrayIconFiles;
-using tmty::ui::TrayControllerTest;
-using tmty::ui::StandardTrayController;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::MockPomodoroEngine;
+using tmtl::MockTimerSignalEmitter;
+using tmtl::ui::MockTray;
+using tmtl::ui::MockTrayIconFiles;
+using tmtl::ui::TrayControllerTest;
+using tmtl::ui::StandardTrayController;
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

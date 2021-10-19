@@ -1,7 +1,7 @@
 #ifndef SOUNDNOTIFICATIONS_H
 #define SOUNDNOTIFICATIONS_H
 
-namespace tmty
+namespace tmtl
 {
   namespace ui
   {

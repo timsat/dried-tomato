@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -15,8 +16,22 @@
  */
 
 #include "Clockwork.h"
+#include "impl/Clockwork_p.h"
 
-using tmty::Clockwork;
+using tmtl::Clockwork;
 
-Clockwork::Clockwork(QObject *parent) : QObject(parent)
-{}
+Clockwork::Clockwork(QObject * parent):
+  QObject(parent),
+  d_ptr(new ClockworkPrivate(this))
+{
+}
+
+void Clockwork::resume() {
+  Q_D(Clockwork);
+  d->resume();
+}
+
+void Clockwork::pause() {
+  Q_D(Clockwork);
+  d->pause();
+}

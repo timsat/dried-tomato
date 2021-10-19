@@ -3,12 +3,14 @@
 
 #include "ImmutableSoundClip.h"
 
-using tmty::ui::ImmutableSoundClip;
+using tmtl::ui::ImmutableSoundClip;
 
 ImmutableSoundClip::ImmutableSoundClip(const QString &filePath) :
   _sound(new QSoundEffect())
 {
   _sound->setSource(QUrl::fromLocalFile(filePath));
+  _sound->stop();
+  _sound->setVolume(0.2f);
   _sound->setCategory(QString("notifications"));
 }
 

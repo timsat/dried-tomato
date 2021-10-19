@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -19,12 +20,12 @@
 #include "../Interval.h"
 #include "../IntervalType.h"
 
-using tmty::Clockwork;
-using tmty::Interval;
-using tmty::IntervalType;
-using tmty::StandardTimer;
+using tmtl::Clockwork;
+using tmtl::Interval;
+using tmtl::IntervalType;
+using tmtl::StandardTimer;
 
-StandardTimer::StandardTimer(tmty::Clockwork &clockwork, QObject *parent) :
+StandardTimer::StandardTimer(tmtl::Clockwork &clockwork, QObject *parent) :
   Timer(parent),
   _clockwork(clockwork)
 {

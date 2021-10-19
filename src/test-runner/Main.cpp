@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -23,10 +24,10 @@
 
 int main(int argc, char** argv)
 {
-  tmty::PomodoroEngineTest pomodoroEngineTest;
-  tmty::TimerTest timerTest;
-  tmty::ui::TrayControllerTest trayControllerTest;
-  tmty::ui::SoundNotificationControllerTest soundNotificationControllerTest;
+  tmtl::PomodoroEngineTest pomodoroEngineTest;
+  tmtl::TimerTest timerTest;
+  tmtl::ui::TrayControllerTest trayControllerTest;
+  tmtl::ui::SoundNotificationControllerTest soundNotificationControllerTest;
 
   return QTest::qExec(&timerTest, argc, argv)
        | QTest::qExec(&pomodoroEngineTest, argc, argv)

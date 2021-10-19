@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -19,8 +20,10 @@
 
 #include <QObject>
 
-namespace tmty
+namespace tmtl
 {
+  class ClockworkPrivate;
+
   class Clockwork : public QObject
   {
       Q_OBJECT
@@ -28,11 +31,19 @@ namespace tmty
     public:
       explicit Clockwork(QObject *parent = 0);
 
-      virtual void resume() = 0;
-      virtual void pause() = 0;
+      void resume();
+      void pause();
 
     signals:
       void secondElapsed();
+
+    protected:
+      Clockwork(ClockworkPrivate &&d, QObject *parent);
+      ClockworkPrivate * const d_ptr;
+    private:
+      Q_DECLARE_PRIVATE(Clockwork);
+
+
   };
 }
 

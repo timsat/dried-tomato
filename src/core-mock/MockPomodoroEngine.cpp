@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -16,9 +17,9 @@
 
 #include "MockPomodoroEngine.h"
 
-using tmty::IntervalType;
-using tmty::MockPomodoroEngine;
-using tmty::PomodoroEngine;
+using tmtl::IntervalType;
+using tmtl::MockPomodoroEngine;
+using tmtl::PomodoroEngine;
 
 MockPomodoroEngine::MockPomodoroEngine(QObject *parent) :
   PomodoroEngine(parent)

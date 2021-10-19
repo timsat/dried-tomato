@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -19,9 +20,9 @@
 #include "IntervalType.h"
 #include "StandardTrayIconFiles.h"
 
-using tmty::IntervalType;
-using tmty::ui::StandardTrayIconFiles;
-using tmty::ui::TrayIconFiles;
+using tmtl::IntervalType;
+using tmtl::ui::StandardTrayIconFiles;
+using tmtl::ui::TrayIconFiles;
 
 StandardTrayIconFiles::StandardTrayIconFiles() :
   TrayIconFiles()

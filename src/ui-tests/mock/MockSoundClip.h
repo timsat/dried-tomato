@@ -3,7 +3,7 @@
 
 #include "SoundClip.h"
 
-namespace tmty
+namespace tmtl
 {
   namespace ui
   {

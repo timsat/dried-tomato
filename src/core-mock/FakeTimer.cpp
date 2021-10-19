@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -20,9 +21,9 @@
 #include "IntervalType.h"
 #include "FakeTimer.h"
 
-using tmty::FakeTimer;
-using tmty::Interval;
-using tmty::IntervalType;
+using tmtl::FakeTimer;
+using tmtl::Interval;
+using tmtl::IntervalType;
 
 FakeTimer::FakeTimer(QObject *parent) :
   Timer(parent)

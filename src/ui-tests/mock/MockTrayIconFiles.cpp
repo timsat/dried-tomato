@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2010-2014 Célio Cidral Junior.
+ * Modified work Copyright (c) 2021 Timur Sattarov.
  *
  *     Licensed under the Apache License, Version 2.0 (the "License");
  *     you may not use this file except in compliance with the License.
@@ -18,9 +19,9 @@
 
 #include "MockTrayIconFiles.h"
 
-using tmty::IntervalType;
-using tmty::ui::MockTrayIconFiles;
-using tmty::ui::TrayIconFiles;
+using tmtl::IntervalType;
+using tmtl::ui::MockTrayIconFiles;
+using tmtl::ui::TrayIconFiles;
 
 MockTrayIconFiles::MockTrayIconFiles() :
   TrayIconFiles()

@@ -1,8 +1,8 @@
 #include "MockSoundNotifications.h"
 #include "SoundClip.h"
 
-using tmty::ui::SoundClip;
-using tmty::ui::MockSoundNotifications;
+using tmtl::ui::SoundClip;
+using tmtl::ui::MockSoundNotifications;
 
 MockSoundNotifications::MockSoundNotifications(SoundClip &timerSet, SoundClip &timeElapsing, SoundClip &timerExpired) :
   _timerSet(timerSet),

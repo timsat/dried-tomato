@@ -6,7 +6,7 @@
 class QSoundEffect;
 class QString;
 
-namespace tmty
+namespace tmtl
 {
   namespace ui {
     class ImmutableSoundClip : public SoundClip
